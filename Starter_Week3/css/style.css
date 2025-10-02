@@ -1,0 +1,29 @@
+body {
+  background-color:#ffffff;
+
+
+
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+
+
+}
+p{color: #000000}
+
+h1{color: #ffffff; background-color: #000000; padding: 50px; text-align: center; margin: 50px 0 50px 0}
+/* The margin numbers do their stuff clockwise */
+
+
+a {color: #ADD8E6; text-decoration: none}
+
+a:hover {color: #000000}
+
+
+.videoPageColor {background-color: #FFFFFF}
+
+
+.videoHeadline {color: #FFFFFF}
+
+.relatedInfo {border: solid 1px #000000; padding: 20px; background-color: #ADD8E6; width: 50%; border-radius: 20px}
