@@ -1,0 +1,106 @@
+//* Base layout */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  background: #fafafa;
+}
+
+/* Header */
+.article-header {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  border-bottom: 3px solid #0077cc;
+}
+
+.article-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-header .author {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Feature image */
+.feature-image {
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.feature-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+/* Article body */
+.article-body {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-body p {
+  margin-bottom: 1rem;
+}
+
+/* Movie section */
+.movie-section {
+  background: #f1f5f9;
+  padding: 1rem;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+
+
+
+
+/* Footer */
+.article-footer {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+.article-footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.article-footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+.image-container {
+  width: 450px;
+  height: 250px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+}
