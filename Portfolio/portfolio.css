@@ -1,0 +1,66 @@
+{
+    box-sizing: border-box;
+    font-family: Optima, sans-serif;}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;}
+
+header nav {
+    margin-top: 10px;}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;}
+
+header nav a:hover {
+    text-decoration: underline;}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;}
+
+.profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;}
+
+.profile img {
+    width: 180px;
+    border-radius: 10px;}
+
+section {
+    margin-bottom: 30px;}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;}
+
+.job, .clip {
+    margin-bottom: 20px;}
+
+.date {
+    font-style: italic;
+    color: #666;}
+
+.clip a {
+    color: #0066cc;
+    font-weight: bold;}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 40px;}
